@@ -88,3 +88,6 @@ npm run dev
 🚧 Projeto acadêmico em desenvolvimento.
 
 A aplicação continuará sendo aprimorada futuramente com novas funcionalidades e melhorias visuais.
+
+## Atualização
+Melhoria inicial no projeto RonronCare ONG.
