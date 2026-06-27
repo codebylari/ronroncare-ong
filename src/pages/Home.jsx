@@ -5,19 +5,19 @@ function Home() {
     <section className="hero-section">
 
       <span className="hero-badge">
-        🐾 Amor, cuidado e adoção responsável
+        🐾 Amor, cuidado e proteção animal
       </span>
 
       <h2>
-        Ajude um gato a encontrar um lar cheio de amor
+        Ajude a transformar a vida de gatos resgatados
       </h2>
 
       <p>
-        A RonronCare resgata e acolhe gatos em situação de abandono.
+        A RonronCare acolhe, alimenta e cuida de gatos em situação de abandono. Com a sua ajuda, podemos oferecer tratamento veterinário, abrigo seguro e muito carinho para cada resgatado.
       </p>
 
       <button className="hero-button">
-        Conhecer gatos
+        Conhecer nossos resgatados
       </button>
 
     </section>

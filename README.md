@@ -14,11 +14,11 @@ RonronCare ONG
 
 ## 📌 Objetivo da aplicação
 
-A RonronCare ONG é uma aplicação web desenvolvida com foco no acolhimento, cuidado e adoção responsável de gatos resgatados.
+A RonronCare ONG é uma aplicação web desenvolvida com foco no resgate, acolhimento e cuidado de gatos em situação de abandono.
 
-O projeto simula uma ONG/abrigo felino que auxilia gatos em situação de abandono, oferecendo informações sobre os animais disponíveis para adoção e incentivando a conscientização sobre proteção animal.
+O projeto simula uma ONG felina que auxilia animais resgatados, apresentando informações sobre os gatos acolhidos, suas histórias e a importância da proteção animal.
 
-Além do objetivo acadêmico, o projeto foi idealizado com a intenção de futuramente evoluir para uma plataforma real de apoio a um abrigo felino, permitindo ampliar funcionalidades e auxiliar efetivamente no cuidado e adoção de gatos.
+Além do objetivo acadêmico, a aplicação foi idealizada com a intenção de futuramente evoluir para uma plataforma real de apoio a projetos de resgate e bem-estar animal.
 
 ---
 
@@ -30,6 +30,7 @@ Além do objetivo acadêmico, o projeto foi idealizado com a intenção de futur
 * 🧭 Navegação entre páginas
 * 📱 Responsividade básica
 * ⚡ Interface moderna e organizada
+*❤️ Apresentação de histórias dos gatos acolhidos
 
 ---
 
@@ -83,11 +84,5 @@ npm run dev
 
 ---
 
-## 📌 Status do projeto
-
-🚧 Projeto acadêmico em desenvolvimento.
 
 A aplicação continuará sendo aprimorada futuramente com novas funcionalidades e melhorias visuais.
-
-## Atualização
-Melhoria inicial no projeto RonronCare ONG.

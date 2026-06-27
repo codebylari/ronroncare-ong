@@ -5,7 +5,7 @@ function Footer() {
       <h3>RonronCare ONG</h3>
 
       <p>
-        Ajudando gatos a encontrarem um lar cheio de amor.
+        Resgatando, protegendo e cuidando de gatos em situação de abandono.
       </p>
 
       <p>

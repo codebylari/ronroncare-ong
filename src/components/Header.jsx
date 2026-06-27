@@ -40,6 +40,10 @@ function Header() {
           Sobre
         </Link>
 
+        <Link to="/doacoes">
+          Doações
+        </Link>
+
         <Link to="/contato">
           Contato
         </Link>

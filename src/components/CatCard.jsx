@@ -1,25 +1,41 @@
 function CatCard({ cat }) {
-  return (
-    <div className="cat-card">
 
-      <img src={cat.image} alt={cat.name} />
+return (
 
-      <div className="cat-card-content">
 
-        <h2>{cat.name}</h2>
+<div className="cat-card">
 
-        <p><strong>Idade:</strong> {cat.age}</p>
+  <img
+    src={cat.image}
+    alt={cat.name}
+  />
 
-        <p><strong>Sexo:</strong> {cat.gender}</p>
+  <div className="cat-card-content">
 
-        <p>{cat.personality}</p>
+    <h2>{cat.name}</h2>
 
-        <span>{cat.status}</span>
+    <p>
+      <strong>Idade:</strong> {cat.age}
+    </p>
 
-      </div>
+    <p>
+      <strong>Sexo:</strong> {cat.gender}
+    </p>
 
-    </div>
-  )
+    <p>
+      <strong>Personalidade:</strong> {cat.personality}
+    </p>
+
+    <p>
+      {cat.story}
+    </p>
+
+  </div>
+
+</div>
+
+
+)
 }
 
 export default CatCard

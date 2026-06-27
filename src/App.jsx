@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Cats from './pages/Cats'
 import About from './pages/About'
 import Contact from './pages/Contact'
+import Donations from './pages/Donations'
 
 function App() {
 
@@ -31,6 +32,11 @@ function App() {
         <Route
           path="/sobre"
           element={<About />}
+        />
+
+        <Route
+          path="/doacoes"
+          element={<Donations />}
         />
 
         <Route
