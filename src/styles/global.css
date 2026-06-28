@@ -309,9 +309,13 @@ body {
   text-align: center;
 }
 
+.info-section p {
+  font-size: 22px;
+}
+
 .info-section h2 {
 
-  font-size: 48px;
+  font-size: 52px;
 
   margin-bottom: 20px;
 }
