@@ -2,61 +2,67 @@ import { useState } from 'react'
 
 function DonationForm() {
 
-const [name, setName] = useState('')
-const [email, setEmail] = useState('')
-const [value, setValue] = useState('')
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [value, setValue] = useState('')
 
-function handleSubmit(event) {
+  function handleSubmit(event) {
 
+    event.preventDefault()
 
-event.preventDefault()
+    if (!name || !email || !value) {
+      alert('Preencha todos os campos!')
+      return
+    }
 
-if (!name || !email || !value) {
-  alert('Preencha todos os campos!')
-  return
-}
+    alert(
+      `Obrigado pela sua contribuição, ${name}! 🐾`
+    )
 
-alert(`Obrigado pela sua doação, ${name}! ❤️`)
+    setName('')
+    setEmail('')
+    setValue('')
+  }
 
-setName('')
-setEmail('')
-setValue('')
+  return (
 
+    <form onSubmit={handleSubmit} className="donation-form">
 
-}
+      <h2>Faça sua doação</h2>
 
-return (
+      <p>
+        Preencha os dados abaixo para simular uma doação e apoiar
+        nossos projetos de resgate e cuidados veterinários.
+      </p>
 
-<form onSubmit={handleSubmit} className="donation-form">
+      <input
+        type="text"
+        placeholder="Nome completo"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+      />
 
-  <input
-    type="text"
-    placeholder="Seu nome"
-    value={name}
-    onChange={(e) => setName(e.target.value)}
-  />
+      <input
+        type="email"
+        placeholder="E-mail"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+      />
 
-  <input
-    type="email"
-    placeholder="Seu e-mail"
-    value={email}
-    onChange={(e) => setEmail(e.target.value)}
-  />
+      <input
+        type="number"
+        placeholder="Valor da contribuição (R$)"
+        value={value}
+        onChange={(e) => setValue(e.target.value)}
+      />
 
-  <input
-    type="number"
-    placeholder="Valor da doação (R$)"
-    value={value}
-    onChange={(e) => setValue(e.target.value)}
-  />
+      <button type="submit">
+        Apoiar a RonronCare 🐾
+      </button>
 
-  <button type="submit">
-    Fazer Doação ❤️
-  </button>
+    </form>
 
-</form>
-
-)
+  )
 }
 
 export default DonationForm

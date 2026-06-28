@@ -1,19 +1,27 @@
 function Footer() {
+
   return (
+
     <footer className="footer">
 
-      <h3>RonronCare ONG</h3>
+      <h3>RonronCare</h3>
 
       <p>
-        Resgatando, protegendo e cuidando de gatos em situação de abandono.
+        Proteção, cuidado e bem-estar para gatos resgatados.
       </p>
 
       <p>
-        © 2026 Todos os direitos reservados.
+        contato@ronroncare.org
+      </p>
+
+      <p>
+        © 2026 RonronCare. Todos os direitos reservados.
       </p>
 
     </footer>
+
   )
+
 }
 
 export default Footer

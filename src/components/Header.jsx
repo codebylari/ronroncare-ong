@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 function Header() {
 
@@ -14,13 +14,9 @@ function Header() {
 
         <div>
 
-          <h1>
-            RonronCare
-          </h1>
+          <h1>RonronCare</h1>
 
-          <span>
-            ONG FELINA
-          </span>
+          <span>ONG FELINA</span>
 
         </div>
 
@@ -28,25 +24,25 @@ function Header() {
 
       <nav>
 
-        <Link to="/">
+        <NavLink to="/">
           Início
-        </Link>
+        </NavLink>
 
-        <Link to="/gatos">
-          Gatos
-        </Link>
+        <NavLink to="/gatos">
+          Nossos Gatos
+        </NavLink>
 
-        <Link to="/sobre">
+        <NavLink to="/sobre">
           Sobre
-        </Link>
+        </NavLink>
 
-        <Link to="/doacoes">
-          Doações
-        </Link>
-
-        <Link to="/contato">
+        <NavLink to="/contato">
           Contato
-        </Link>
+        </NavLink>
+
+        <NavLink to="/doacoes">
+          Apoiar
+        </NavLink>
 
       </nav>
 

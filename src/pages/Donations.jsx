@@ -7,11 +7,12 @@ function Donations() {
     <div className="info-section">
 
       <h2>
-        Apoie a RonronCare
+        Faça a diferença na vida de um gato
       </h2>
 
       <p>
-        Sua contribuição ajuda a custear alimentação, consultas veterinárias, vacinas, medicamentos e outros cuidados para os gatos resgatados.
+        Sua contribuição ajuda a garantir alimentação, atendimento veterinário,
+        medicamentos e cuidados diários para gatos resgatados e acolhidos pela RonronCare.
       </p>
 
       <DonationForm />
